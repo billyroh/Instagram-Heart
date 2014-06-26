@@ -19,6 +19,8 @@
 		B17CAE6A195CB5D0001FB405 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17CAE52195CB5D0001FB405 /* UIKit.framework */; };
 		B17CAE72195CB5D0001FB405 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B17CAE70195CB5D0001FB405 /* InfoPlist.strings */; };
 		B17CAE74195CB5D0001FB405 /* Instagram_HeartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B17CAE73195CB5D0001FB405 /* Instagram_HeartTests.m */; };
+		B17CAE80195CB5E1001FB405 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B17CAE7E195CB5E1001FB405 /* ViewController.m */; };
+		B17CAE81195CB5E1001FB405 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B17CAE7F195CB5E1001FB405 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		B17CAE6F195CB5D0001FB405 /* Instagram HeartTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Instagram HeartTests-Info.plist"; sourceTree = "<group>"; };
 		B17CAE71195CB5D0001FB405 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B17CAE73195CB5D0001FB405 /* Instagram_HeartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Instagram_HeartTests.m; sourceTree = "<group>"; };
+		B17CAE7D195CB5E1001FB405 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B17CAE7E195CB5E1001FB405 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B17CAE7F195CB5E1001FB405 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				B17CAE5D195CB5D0001FB405 /* AppDelegate.h */,
 				B17CAE5E195CB5D0001FB405 /* AppDelegate.m */,
+				B17CAE7D195CB5E1001FB405 /* ViewController.h */,
+				B17CAE7E195CB5E1001FB405 /* ViewController.m */,
+				B17CAE7F195CB5E1001FB405 /* ViewController.xib */,
 				B17CAE60195CB5D0001FB405 /* Images.xcassets */,
 				B17CAE55195CB5D0001FB405 /* Supporting Files */,
 			);
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B17CAE59195CB5D0001FB405 /* InfoPlist.strings in Resources */,
+				B17CAE81195CB5E1001FB405 /* ViewController.xib in Resources */,
 				B17CAE61195CB5D0001FB405 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B17CAE80195CB5E1001FB405 /* ViewController.m in Sources */,
 				B17CAE5F195CB5D0001FB405 /* AppDelegate.m in Sources */,
 				B17CAE5B195CB5D0001FB405 /* main.m in Sources */,
 			);
